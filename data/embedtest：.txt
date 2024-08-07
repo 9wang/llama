@@ -1,0 +1,90 @@
+embedmodel：
+
+bge-small-zh-v1.5：
+Query: 动物
+Document: page_content='青蛙是食草动物', Score: 0.5036140252429704
+Document: page_content='熊猫喜欢吃天鹅肉。', Score: 0.415301578516106
+Document: page_content='人是由恐龙进化而来的。', Score: 0.32798554187528006
+
+Query: 恐龙
+Document: page_content='人是由恐龙进化而来的。', Score: 0.5317469373284323
+Document: page_content='Gemini Pro is a Large Language Model was made by GoogleDeepMind', Score: 0.2939533371937129
+Document: page_content='青蛙是食草动物', Score: 0.2509765466670289
+
+Query: 熊猫
+Document: page_content='熊猫喜欢吃天鹅肉。', Score: 0.563461497072097
+Document: page_content='青蛙是食草动物', Score: 0.33199493773297806
+Document: page_content='A Language model is trained by predicting the next token', Score: 0.2837409756628954
+
+Query: 1+
+Document: page_content='1+1=5', Score: 0.6814911957731229
+Document: page_content='2+2=8', Score: 0.4942056902601214
+Document: page_content='A Language model is trained by predicting the next token', Score: 0.4189610965683668
+
+Query: 2+
+Document: page_content='2+2=8', Score: 0.6586957867199869
+Document: page_content='1+1=5', Score: 0.5043719820064112
+Document: page_content='3+3=9', Score: 0.4926529524654384
+
+Query: 3+
+Document: page_content='3+3=9', Score: 0.6976896363950613
+Document: page_content='A Language model is trained by predicting the next token', Score: 0.4067520343612207
+Document: page_content='1+1=5', Score: 0.4027117622163335
+
+Query: Gemini
+Document: page_content='Gemini Pro is a Large Language Model was made by GoogleDeepMind', Score: 0.6402001403721935
+Document: page_content='A Language model is trained by predicting the next token', Score: 0.2974799645820329
+Document: page_content='3+3=9', Score: 0.22725819971391764
+
+Query: token
+Document: page_content='A Language model is trained by predicting the next token', Score: 0.5278088877482192
+Document: page_content='2+2=8', Score: 0.28281697587090376
+Document: page_content='Gemini Pro is a Large Language Model was made by GoogleDeepMind', Score: 0.27710498729380584
+
+
+-------------------------------------------------------------------------------------------------------------------------------
+bge-large-zh:
+Query: 动物
+Document: page_content='青蛙是食草动物', Score: 0.6717648890727549
+Document: page_content='Gemini Pro is a Large Language Model was made by GoogleDeepMind', Score: 0.6470197063131782
+Document: page_content='熊猫喜欢吃天鹅肉。', Score: 0.6173880326438524
+
+Query: 恐龙
+Document: page_content='人是由恐龙进化而来的。', Score: 0.7095936991596031
+Document: page_content='Gemini Pro is a Large Language Model was made by GoogleDeepMind', Score: 0.617942181952642
+Document: page_content='A Language model is trained by predicting the next token', Score: 0.5854371867185699
+
+Query: 熊猫
+Document: page_content='熊猫喜欢吃天鹅肉。', Score: 0.6991549782960961
+Document: page_content='Gemini Pro is a Large Language Model was made by GoogleDeepMind', Score: 0.628065826396973
+Document: page_content='A Language model is trained by predicting the next token', Score: 0.5680688053850771
+
+Query: 1+
+Document: page_content='1+1=5', Score: 0.6535320276118326
+Document: page_content='2+2=8', Score: 0.5452158091355496
+Document: page_content='3+3=9', Score: 0.5440718790867872
+
+Query: 2+
+Document: page_content='2+2=8', Score: 0.6159415944057172
+Document: page_content='1+1=5', Score: 0.5251794084529583
+Document: page_content='3+3=9', Score: 0.5114298719073119
+
+Query: 3+
+Document: page_content='3+3=9', Score: 0.6273110930444081
+Document: page_content='1+1=5', Score: 0.5445763035959998
+Document: page_content='2+2=8', Score: 0.538507514705049
+
+Query: Gemini
+Document: page_content='Gemini Pro is a Large Language Model was made by GoogleDeepMind', Score: 0.7627777143476304
+Document: page_content='A Language model is trained by predicting the next token', Score: 0.5430674331810381
+Document: page_content='1+1=5', Score: 0.49317574964138394
+
+Query: token
+Document: page_content='A Language model is trained by predicting the next token', Score: 0.6575314506158363
+Document: page_content='Gemini Pro is a Large Language Model was made by GoogleDeepMind', Score: 0.5095461953446858
+Document: page_content='1+1=5', Score: 0.4936520410949262
+
+
+
+
+

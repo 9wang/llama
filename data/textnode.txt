@@ -1,0 +1,89 @@
+TextNode
+(
+    id_='87579bd6-a125-4ab1-a07c-4fe5ae0a9f06', embedding=None, 
+    metadata=
+    {
+    'file_path': 'D:\\workspace\\llama_index\\llamaindex\\data\\paul_graham\\paul_graham_essay.txt',
+    'file_name': 'paul_graham_essay.txt', 
+    'file_type': 'text/plain', 
+    'file_size': 26821,
+    'creation_date': '2024-07-30',
+    'last_modified_date': '2024-07-31'
+    }, 
+    excluded_embed_metadata_keys=['file_name', 'file_type', 'file_size', 'creation_date', 'last_modified_date', 'last_accessed_date'], 
+    excluded_llm_metadata_keys=['file_name', 'file_type', 'file_size', 'creation_date', 'last_modified_date', 'last_accessed_date'], 
+    relationships={
+        <NodeRelationship.SOURCE: '1'>: RelatedNodeInfo(  ##表示源节点为1
+            node_id='ce3cb138-11ba-4552-a4a3-2d5526bf8469',  ##源节点的标识符
+            node_type=<ObjectType.DOCUMENT: '4'>, ##目标节点的类型，这里使用 <ObjectType.DOCUMENT: '4'> 表示这是一个文档类型的节点。
+            metadata={
+                'file_path': 'D:\\workspace\\llama_index\\llamaindex\\data\\paul_graham\\paul_graham_essay.txt', 
+                'file_name': 'paul_graham_essay.txt', 
+                'file_type': 'text/plain', 'file_size': 26821, 
+                'creation_date': '2024-07-30', 
+                'last_modified_date': '2024-07-31'
+                    }, 
+                hash='4142351ef9bc2b973247fb46fec674d0bc305d4ad3bbde5d146b7aeabac83b48'
+            ), 
+        <NodeRelationship.NEXT: '3'>: RelatedNodeInfo(  ##表示当前节点的下一节点
+            node_id='171047b7-8280-4994-a224-7509efd1e3eb', 
+            node_type=<ObjectType.TEXT: '1'>, 
+            metadata={}, 
+            hash='385569b09072ef6417168a265570a74d83f193a1e01c168e2038ad68f0ba5275'
+            )
+            }, 
+    text='.', 
+    mimetype='text/plain', ##表示文本的MIME类型
+    start_char_idx=0, 
+    end_char_idx=4170, ##表示文本在原始文档中的起始和结束字符索引。
+    text_template='{metadata_str}\n\n{content}', 
+    metadata_template='{key}: {value}', 
+    metadata_seperator='\n')
+
+
+TextNode
+(   
+    id_='898b70ce-a1a7-4618-8237-efbd48397072', 
+    embedding=None, 
+    metadata=
+    {
+        'file_path': 'D:\\workspace\\llama_index\\llamaindex\\data\\paul_graham\\paul_graham_essay.txt', 
+        'file_name': 'paul_graham_essay.txt', 
+        'file_type': 'text/plain', 
+        'file_size': 26821, 
+        'creation_date': '2024-07-30', 
+        'last_modified_date': '2024-07-31', 
+        'document_title': 
+        (
+            'Based on the provided context and analysis, I would suggest the following comprehensive title:\n\n**
+            "Early Explorations: A Personal Journey from Writing to Programming, AI Disillusionment, and Rediscovery in Early Computing"**\n\n
+            This title captures the essence of the narrative, which describes the author\'s early experiences with writing, programming, and computing, their transformation from a philosophy major to an AI enthusiast, and their subsequent disillusionment and rediscovery. The title highlights three unique entities:\n\n1. **
+            Early Explorations**: This phrase emphasizes the author\'s early experiences with writing and computing.\n2. **A Personal Journey**: This theme conveys the author\'s personal journey from philosophy to AI and their subsequent disillusionment and rediscovery.\n3. **AI Disillusionment and Rediscovery**: This phrase highlights the author\'s disappointment with early AI efforts, followed by a shift in focus to Lisp programming and a new passion for computer science.\n\nTogether, these three elements summarize the context and provide a concise title that accurately reflects the passage\'s content.,', 'questions_this_excerpt_can_answer': "Based on the provided context, I've generated three questions that this text can specifically answer, along with higher-level summaries and potential alternative questions:\n\n**Original Questions**\n\n1. What was the author's primary focus outside of school before college?\n2. At what age did the author start programming on the IBM 1401 computer in their junior high school basement?\n3. How did the author's experience with programming change when they transitioned from punch cards to microcomputers?\n\n**Higher-Level Summaries**\n\n* The author's early experiences involved writing and programming, which laid the foundation for their later interests.\n* The text highlights the significance of the IBM 1401 computer in the author's development as a programmer, but also notes its limitations.\n* The transition to microcomputers marked a turning point in the author's experience with computing.\n\n**Alternative Questions**\n\n1. How did the author's early experiences with writing influence their approach to programming?\n2. What role did social interactions and human relationships play in the author's development as a programmer during their time on the IBM 1401 computer?\n3. In what ways did the author's disillusionment with AI efforts shape their subsequent interests and passions?\n\nThese alternative questions take into account higher-level summaries of surrounding context, such as the author's personal journey from writing to programming and the significance of microcomputers in their development."}, 
+        excluded_embed_metadata_keys=['file_name', 'file_type', 'file_size', 'creation_date', 'last_modified_date', 'last_accessed_date'], 
+        excluded_llm_metadata_keys=['file_name', 'file_type', 'file_size', 'creation_date', 'last_modified_date', 'last_accessed_date'], 
+        relationships=
+        {
+            <NodeRelationship.SOURCE: '1'>: RelatedNodeInfo
+            (
+                node_id='9bffefd8-8022-437d-8d74-ee98cfebdeaf', 
+                node_type=<ObjectType.DOCUMENT: '4'>, 
+                metadata=
+                {
+                    'file_path': 'D:\\workspace\\llama_index\\llamaindex\\data\\paul_graham\\paul_graham_essay.txt', 
+                    'file_name': 'paul_graham_essay.txt', 
+                    'file_type': 'text/plain', 
+                    'file_size': 26821, 
+                    'creation_date': '2024-07-30', 
+                    'last_modified_date': '2024-07-31'}, 
+                    hash='4142351ef9bc2b973247fb46fec674d0bc305d4ad3bbde5d146b7aeabac83b48'
+                ),
+            <NodeRelationship.NEXT: '3'>: RelatedNodeInfo
+            (
+                node_id='b3d54995-b275-4ff5-8a2d-31c58c0006ba', 
+                node_type=<ObjectType.TEXT: '1'>, 
+                metadata={}, 
+                hash='5573529f97d65e8147513c23807fa488ad0bd84ed965dd857c547d699d84e7bc'
+            )
+        }, 
+
+
